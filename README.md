@@ -1,15 +1,18 @@
 # iosToken
 iOS Tokenisation Plugin & supporting files
 
-To Setup Tokenisation
+# To Setup Tokenisation
+
 Please refer this link https://docs.tokens.studio/sync/github
 
-Basic Requirement
+# Basic Requirement
+
 To run this plugin bash version should be 5.0.0 & above. If bash version is less than version 5.0.0 upgrade
 it reference https://itnext.io/upgrading-bash-on-macos-7138bd1066ba provided.
 
 Key Patterns structure in json file to be followed as shown below
  
+# 
 Example 1: Color with light & dark
 
 {
