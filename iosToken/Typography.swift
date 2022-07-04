@@ -9,7 +9,7 @@ import UIKit
 
 struct Typography {
     
-    let fontFamily: String
+    let familyName: String
     
     let fontWeight: String
     
@@ -20,14 +20,14 @@ struct Typography {
     let letterSpacing: CGFloat
     
     public init(
-        fontFamily: String,
+        familyName: String,
         fontWeight: String,
         fontSize: CGFloat,
         lineHeight: CGFloat,
         letterSpacing: CGFloat,
         textStyle: UIFont.TextStyle = .body
     ) {
-        self.fontFamily = fontFamily
+        self.familyName = fontFamily
         self.fontWeight = fontWeight
         self.fontSize = fontSize
         self.lineHeight = lineHeight
@@ -35,7 +35,7 @@ struct Typography {
     }
     
     func font() -> UIFont {
-        let text = String(format: "%@-%@", fontFamily, fontWeight)
+        let text = String(format: "%@-%@", familyName, fontWeight)
         return UIFont(name: text, size: fontSize) ?? UIFont()
     }
     
